@@ -23,8 +23,8 @@ public class HelloController {
     }
 
 
-    @GetMapping("/hello7")
-    public String saludar7(){
+    @GetMapping("/hello3")
+    public String saludar3(){
         return "Hola Mundo con REST en Spring Boot";
     }
 
